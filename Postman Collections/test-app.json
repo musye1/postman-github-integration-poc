@@ -16,7 +16,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "\n{\n  \"message\": \"Hello, github postman integration!\"\n}",
+					"raw": "\n{\n  \"message\": \"Hello, world!\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
