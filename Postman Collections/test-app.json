@@ -16,7 +16,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "\n{\n  \"message\": \"Hello, world!\"\n}",
+					"raw": "\n{\n  \"message\": \"Hello, world! test\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
