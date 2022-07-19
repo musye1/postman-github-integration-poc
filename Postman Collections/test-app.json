@@ -23,7 +23,8 @@
 						}
 					}
 				},
-				"url": "https://postman-echo.com/post"
+				"url": "https://postman-echo.com/post",
+				"description": "This API is just to say hello world"
 			},
 			"response": []
 		}
