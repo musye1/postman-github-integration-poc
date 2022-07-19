@@ -1,13 +1,13 @@
 {
 	"info": {
-		"_postman_id": "3545d014-7d79-446c-a5c1-2c7d48f8d0f0",
+		"_postman_id": "3a8038c6-83e1-4323-90ee-6e7f9786ce55",
 		"name": "postman-github-poc",
-		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
 			"name": "ping",
-			"id": "41a6f064-941c-4185-bd87-982a450f8188",
+			"id": "95064bc6-8a30-4f86-b168-44ec149fdcef",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -16,14 +16,24 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "\n{\n  \"message\": \"Hello, World! \"\n}",
+					"raw": "\n{\n  \"message\": \"Hello, World! Mujahed \"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
 						}
 					}
 				},
-				"url": "https://postman-echo.com/post",
+				"url": {
+					"raw": "https://postman-echo.com/post",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"post"
+					]
+				},
 				"description": "This API is just to say hello world"
 			},
 			"response": []
